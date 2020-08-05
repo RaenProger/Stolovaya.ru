@@ -115,7 +115,9 @@ body {
 
 .container-fluid_wrapper2 {
   padding-left: 0px;
-  padding-right: 0px; }
+  padding-right: 0px;
+  /* TOP-MENU */
+  /* TOP-MENU2 */ }
   .container-fluid_wrapper2 .navbar {
     max-width: 1550px; }
   .container-fluid_wrapper2 .container_fixed {
@@ -164,7 +166,8 @@ body {
     .container-fluid_wrapper2 .container-fluid_topmenu .container_fixed .navbar-expand-lg .navbar-nav .nav-link:hover {
       color: rgba(255, 255, 255, 0.911); }
     .container-fluid_wrapper2 .container-fluid_topmenu .nav-link_after {
-      border-right: 1px solid rgba(255, 255, 255, 0.4); }
+      border-right: 1px solid rgba(255, 255, 255, 0.4);
+      padding-right: 30px; }
     .container-fluid_wrapper2 .container-fluid_topmenu .container_fixed a {
       font-family: MyriadPro;
       font-size: 16px;
@@ -179,55 +182,84 @@ body {
       font-size: 30px; }
   .container-fluid_wrapper2 .container-fluid_topmenu2 {
     background-color: #e7e6e6; }
-  .container-fluid_wrapper2 .container-fluid_topmenu2 .container_fixed {
+  .container-fluid_wrapper2 .container_fixed {
     max-width: 1550px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 3px; }
-  .container-fluid_wrapper2 .container-fluid_topmenu2 .navbar-brand span {
+  .container-fluid_wrapper2 .navbar-brand {
+    padding-top: 0; }
+  .container-fluid_wrapper2 .navbar-brand span {
     font-size: 33px;
     font-family: "Myriad Pro";
     color: #1d1d1d;
     line-height: 1.2; }
-  .container-fluid_wrapper2 .container-fluid_topmenu2 .form-control {
-    border: none;
-    height: 40px; }
-  .container-fluid_wrapper2 .container-fluid_topmenu2 .input-group-text {
-    background-color: orange; }
-  .container-fluid_wrapper2 .container-fluid_topmenu2 .input-group-text:hover {
-    transition: 0.5s;
-    background-color: #dab672; }
-  .container-fluid_wrapper2 .container-fluid_topmenu2 i {
-    font-size: 28px !important;
-    color: #ffffff; }
-  .container-fluid_wrapper2 .dropdown-toggle {
-    background-color: #f1f1f1;
-    border: none;
-    border-radius: none;
-    -webkit-border-radius: none;
-    -moz-border-radius: none;
-    -ms-border-radius: none;
-    -o-border-radius: none; }
-  .container-fluid_wrapper2 span {
-    font-family: MyriadPro-SemiExt;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 1.14;
-    text-align: left;
-    color: #777777; }
-    .container-fluid_wrapper2 span .price {
-      font-family: MyriadPro;
-      font-size: 16px;
-      line-height: 1;
-      color: #1d1d1d;
-      font-weight: bold; }
+  .container-fluid_wrapper2 .search_panel {
+    padding-left: 40px;
+    padding-right: 50px; }
+    .container-fluid_wrapper2 .search_panel .dropdown-menu {
+      background-color: #e7e6e6; }
+      .container-fluid_wrapper2 .search_panel .dropdown-menu p {
+        font-size: 18px;
+        margin-left: 20px;
+        font-weight: 900; }
+      .container-fluid_wrapper2 .search_panel .dropdown-menu a {
+        font-size: 18px; }
+    .container-fluid_wrapper2 .search_panel .form-control {
+      border: none;
+      height: 40px; }
+    .container-fluid_wrapper2 .search_panel .input-group-text {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      background-color: orange; }
+    .container-fluid_wrapper2 .search_panel .input-group-text:hover {
+      transition: 0.5s;
+      background-color: #dab672; }
+    .container-fluid_wrapper2 .search_panel i {
+      font-size: 28px !important;
+      color: #ffffff; }
+    .container-fluid_wrapper2 .search_panel .dropdown-toggle {
+      background-color: #f1f1f1;
+      border: none;
+      border-top-left-radius: 7px;
+      border-bottom-left-radius: 7px; }
+  .container-fluid_wrapper2 .contacts {
+    padding-right: 20px; }
+    .container-fluid_wrapper2 .contacts .quantity {
+      margin-left: 5px;
+      color: orange; }
+    .container-fluid_wrapper2 .contacts .basket {
+      height: 23px; }
+    .container-fluid_wrapper2 .contacts span {
+      font-family: MyriadPro-SemiExt;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 1.14;
+      text-align: left;
+      color: #777777; }
+      .container-fluid_wrapper2 .contacts span .price {
+        font-family: MyriadPro;
+        font-size: 16px;
+        line-height: 1;
+        color: #1d1d1d;
+        font-weight: bold;
+        padding-top: 5px;
+        margin-bottom: 0; }
 
 .container-fluid p {
   font-family: MyriadPro;
   font-size: 15.9px;
   line-height: 1.2;
   color: #373737; }
+
+/* TOP-MENU3 */
+.container_fixed_topmenu3 {
+  position: relative;
+  z-index: 1;
+  -webkit-box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.18);
+  -moz-box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.18);
+  box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.18); }
 
 /* BAR+SLIDER+BAR */
 .container_fixed .col-md-3 {

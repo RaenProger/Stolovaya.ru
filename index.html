@@ -16,28 +16,13 @@
 </head>
 <body>
 
-  <div class="d-flex" id="wrapper">
+  
 
-    <!-- Sidebar -->
-    <div class="bg-light border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading">Start Bootstrap </div>
-      <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
-      </div>
-    </div>
-    <!-- /#sidebar-wrapper -->
-
-    <!-- Page Content -->
- 
-  <div class="container-fluid container-fluid_wrapper2">
-   <div class="page-content-wrapper container-fluid_topmenu container-fluid ">
+  <div>
+    <div class="container-fluid container-fluid_wrapper2 fixed-top">
+      <div class="page-content-wrapper container-fluid_topmenu container-fluid">
     <div class="container container_fixed">
-      <nav class="navbar navbar-expand-lg ">
+      <nav class="navbar px-0 navbar-expand-lg">
         <button class="navbar-toggler collapsed" id="menu-toggle" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="icon-bar top-bar"></span>
       <span class="icon-bar middle-bar"></span>
@@ -75,10 +60,10 @@
             </li>
             <li>
               
-            <a class="nav-link nav-link_nav nav-link_nav_last" href="mailto:info@stolovay.ru"><img src="img/email (1).png" alt="">info@stolovay.ru</a>
+            <a class="nav-link nav-link_nav nav-link_nav_last" href="mailto:info@stolovay.ru"><img class="pr-1" src="img/email (1).png" alt="">info@stolovay.ru</a>
           </li>
           <li>
-            <a class="nav-link nav-link_nav nav-link_nav_end" href="tel:880003338831" class="phone"><img src="img/phone.png" alt="">8-800-333-88-31</a>
+            <a class="nav-link nav-link_nav nav-link_nav_end" href="tel:880003338831" class="phone"><img class="pr-1" src="img/phone.png" alt="">8-800-333-88-31</a>
           </li>
           </ul>
         </div>
@@ -88,7 +73,6 @@
     </div>
   </div>
 
-  
 
 
   <div class="container-fluid container-fluid_topmenu2">
@@ -96,18 +80,29 @@
       
       <a class="navbar-brand" href=""><img src="img/logo.png" alt=""></a>
  
-        <div class="px-4 flex-grow-1">
+      <div class="search_panel  flex-grow-1">
           
  <div class="input-group">
   <div class="dropdown">
-    <a class="btn btn-lg dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <a class="btn btn-lg dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       Все
     </a>
   
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-      <a class="dropdown-item" href="#">Action</a>
-      <a class="dropdown-item" href="#">Another action</a>
-      <a class="dropdown-item" href="#">Something else here</a>
+    <div class="dropdown-menu pt-2" aria-labelledby="dropdownMenuLink">
+      <p>Выберете категорию</p>
+      <a class="dropdown-item" href="#">Все</a>
+      <a class="dropdown-item" href="#">Весовое</a>
+      <a class="dropdown-item" href="#">Для магазинов</a>
+      <a class="dropdown-item" href="#">Для обеденных залов</a>
+      <a class="dropdown-item" href="#">Нейтральное</a>
+      <a class="dropdown-item" href="#">Для бара</a>
+      <a class="dropdown-item" href="#">Для фаст фуд</a>
+      <a class="dropdown-item" href="#">Посудомоечное</a>
+      <a class="dropdown-item" href="#">Тепловое</a>
+      <a class="dropdown-item" href="#">Термоподносы</a>
+      <a class="dropdown-item" href="#">Хлебопекарное</a>
+      <a class="dropdown-item" href="#">Холодильное</a>
+      <a class="dropdown-item" href="#">Электромеханическое</a>
     </div>
   </div>
    <input type="text" class="form-control" placeholder="" aria-label="Recipient's username">
@@ -116,18 +111,24 @@
 </div>
 </div>
 </div>
-<div class='d-flex'>
-<a href=""><img src="img/3users.png"  alt=""></a><span>Мы на портале  <p>поставщиков</p></span>
 
-<a href=""><img src="img/basket.png"   alt=""></a><span>Сумма <p class="price">150 000 руб.</p></span>
+<div class='d-flex contacts'>
+  
+<a class="mt-2" href=""><img class="users pr-2" src="img/3users.png"  alt=""></a><span class="pr-2 mt-2">Мы на портале  <p>поставщиков</p></span>
+  
+  
+<a class="pl-5"  href="">
+  <span class="d-block quantity pl-1">12</span>
+  <img class="basket pr-2" src="img/basket.png"   alt=""></a>
+  <span>Сумма <p class="price">150 000 руб.</p></span>
 </div>
 </div>
-  </div>
+</div>
    
 
 
-<div class="container-fluid">
-  <div class="container container_fixed d-flex text-center justify-content-between pt-3">
+<div class="container-fluid container_fixed_topmenu3">
+  <div class="container container_fixed  d-flex text-center justify-content-between pt-3">
     <div>
    <a href=""><img src="img/round_1.png" alt="">
     <p class="pt-3">Тепловое</p></a>
@@ -174,8 +175,27 @@
    </div>
     </div>
 </div>
+</div>
+</div>
+<div class="d-flex" style="margin-top:230px;" id="wrapper">
 
+  <!-- Sidebar -->
+  <div class="bg-light border-right" id="sidebar-wrapper">
+    <div class="sidebar-heading">Start Bootstrap </div>
+    <div class="list-group list-group-flush">
+      <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
+    </div>
+  </div>
+  <!-- /#sidebar-wrapper -->
 
+  <!-- Page Content -->
+
+  <div class="container-fluid container-fluid_wrapper2">
 
   <!--BAR+SLIDER+BAR -->
   <div class="container-fluid container-fluid_content ">

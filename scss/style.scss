@@ -88,7 +88,7 @@ body{
 
 //HEADER
 
-
+/* TOP-MENU */
 
 .container-fluid_topmenu {
   background-color: #34a853;
@@ -138,6 +138,7 @@ body{
 
          .nav-link_after{
          border-right: 1px solid rgba(255, 255, 255, 0.4);
+         padding-right: 30px;
          }
 
    .container_fixed a {
@@ -156,42 +157,79 @@ body{
    }
 
 
+
+/* TOP-MENU2 */
+
 .container-fluid_topmenu2 {
   
  background-color: #e7e6e6; }
- .container-fluid_topmenu2 .container_fixed {
+  .container_fixed {
   max-width: 1550px;
   padding-left: 10px;
   padding-right: 10px; 
    padding-top: 10px;
    padding-bottom: 3px; }
- .container-fluid_topmenu2 .navbar-brand span {
+    .navbar-brand {
+    padding-top: 0;}
+  .navbar-brand span {
    font-size: 33px;
    font-family: "Myriad Pro";
    color: #1d1d1d;
    line-height: 1.2; }
- .container-fluid_topmenu2 .form-control {
+
+
+
+
+
+   .search_panel  {
+     padding-left: 40px;
+     padding-right: 50px;
+     .dropdown-menu{
+       background-color: #e7e6e6;
+       p{
+         font-size: 18px;
+         margin-left: 20px;
+         font-weight: 900;
+       }
+       a{
+         font-size: 18px;
+       }
+     }
+  .form-control {
    border: none;
    height: 40px; }
- .container-fluid_topmenu2 .input-group-text {
+  
+  
+
+  .input-group-text {
+    border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
    background-color: orange; }
-   .container-fluid_topmenu2 .input-group-text:hover {
+   
+    .input-group-text:hover {
      transition: 0.5s;
     background-color: rgb(218, 182, 114); }
- .container-fluid_topmenu2 i {
+  i {
    font-size: 28px !important;
    color: #ffffff; }
    
     .dropdown-toggle{
      background-color:#f1f1f1;
      border: none;
-     border-radius:none ;
-     -webkit-border-radius:none ;
-     -moz-border-radius:none ;
-     -ms-border-radius:none ;
-     -o-border-radius:none ;
+     border-top-left-radius: 7px;
+     border-bottom-left-radius: 7px;
 
 }
+   }
+.contacts{
+  padding-right: 20px;
+  .quantity{
+    margin-left: 5px;
+    color: orange;
+  }
+  .basket{
+    height: 23px;
+  }
 span{
   
     font-family: MyriadPro-SemiExt;
@@ -206,7 +244,10 @@ span{
       line-height: 1;
       color: #1d1d1d;  
       font-weight: bold;  
+      padding-top: 5px;
+      margin-bottom: 0;
     }
+}
 }
   }
 
@@ -223,6 +264,21 @@ span{
  
     }
   }
+
+
+
+ 
+/* TOP-MENU3 */
+
+.container_fixed_topmenu3{
+  position: relative;
+  z-index: 1;
+  -webkit-box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.18);
+  -moz-box-shadow:    0px 5px 11px 0px rgba(50, 50, 50, 0.18);
+  box-shadow:         0px 5px 11px 0px rgba(50, 50, 50, 0.18);
+}
+
+
 
 
 /* BAR+SLIDER+BAR */
