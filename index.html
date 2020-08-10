@@ -133,15 +133,16 @@
    
 
 
-<div class="container-fluid container_fixed_topmenu3">
-  <div class="container container_fixed  d-flex text-center justify-content-between ">
+<div class="container-fluid container_fluid_topmenu3">
+  <div class="container container_fixed   d-flex text-center justify-content-between ">
     <nav class="navbar px-0 navbar-expand-lg justify-content-between flex-grow-1">
-      <button class="navbar-toggler collapsed" id="menu-toggle2" type="button" data-toggle="collapse" 
+      <button class="navbar-toggler   collapsed" id="menu-toggle2" type="button" data-toggle="collapse" 
       data-target="#navbarNavAltMarkup2" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <p>Оборудование </p>
+      <p class="tech">Оборудование </p> 
+      
       </button>
       
-     
+      <img class="float-right arrow" src="img/arrow-point-to-right.png" alt="">
   
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup2">
         <ul  class="navbar-nav  navbar-nav__2 justify-content-between flex-grow-1">
@@ -205,11 +206,8 @@
   <!-- Sidebar -->
   <div class="bg-light border-right" id="sidebar-wrapper">
     
-    <div class="list-group list-group-flush">
-      <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
-      <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
-      <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
-      <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
+    <div class="list-group  list-group-flush list-group-flush_modile">
+     
       <a href="#" class="list-group-item list-group-item-action bg-light text-center"><img class="" src="img/round_1.png" alt="">
         <p class="pt-1 mb-0 ">Тепловое</p></a>
         <a href="#" class="list-group-item list-group-item-action bg-light text-center"><img class="t" src="img/round_2.png" alt="">
@@ -240,13 +238,13 @@
 
   <div class="container-fluid container-fluid_wrapper2">
 
-    
+
 
   <!--BAR+SLIDER+BAR -->
   <div class="container-fluid container-fluid_content ">
     <div class="container container_fixed container_fixed_bar_slider pt-4">
  <div class="row">
-    <div class="col-md-3"> 
+    <div class="col-md-3 col-md-3_leftbar"> 
       <h2 class="pl-3">Целевые преложения</h2>
   <ul class="list-group">
     <div class="btn-group dropright">
@@ -310,7 +308,7 @@
   <div class="col-md-6"> 
     <div class="slider_1">
 
-      <div id="slider" class="carousel slide" data-ride="carousel" data-interval="5000">
+      <div  id="slider" class="carousel slide" data-ride="carousel" data-interval="5000">
         <ol class="carousel-indicators">
             <li data-target="#slider" data-slide-to="0" class="active"></li>
             <li data-target="#slider" data-slide-to="1"></li>
@@ -319,19 +317,66 @@
         </ol>
     
         <div class="carousel-inner">
-            <div class="carousel-item active">
-              <a href=""> <img class=" " src="img/slider.jpg"></a>
-                
+            <div class="carousel-item active ">
+              <div class="card">
+            <img src="img/slider.jpg" alt="Card image">
+            <div class="card-img-overlay">
+              <div class="text-left">
+              <h3 class="card-title">Портфолио</h3>
+              <h4 class="card-title">НИИ скорой помощи <p>им. Н.В. Склифосовского</p></h4>
+              <p class="card-text">Оборудование для пищеблоков</p>
+              <button type="button" class="btn">Подробнее</button>
+            </div>
+            </div>
+           </div>
+        </div>
+            <div class="carousel-item">
+              <div class="card">
+                <img src="img/slider.jpg" alt="Card image">
+                <div class="card-img-overlay">
+                  <div class="text-left">
+                  <h3 class="card-title">Портфолио</h3>
+                  <h4 class="card-title">НИИ скорой помощи <p>им. Н.В. Склифосовского</p></h4>
+                  <p class="card-text">Оборудование для пищеблоков</p>
+                  <button type="button" class="btn">Подробнее</button>
+                </div>
+                </div>
+               </div>
             </div>
             <div class="carousel-item">
-              <a href=""> <img class=" " src="img/slider.jpg"></a>
+              <div class="card">
+                <img src="img/slider.jpg" alt="Card image">
+                <div class="card-img-overlay">
+                  <div class="text-left">
+                  <h3 class="card-title">Портфолио</h3>
+                  <h4 class="card-title">НИИ скорой помощи <p>им. Н.В. Склифосовского</p></h4>
+                  <p class="card-text">Оборудование для пищеблоков</p>
+                  <button type="button" class="btn">Подробнее</button>
+                </div>
+                </div>
+               </div>
             </div>
             <div class="carousel-item">
-              <a href=""> <img class=" " src="img/slider.jpg"></a>
+              <div class="card">
+                <img src="img/slider.jpg" alt="Card image">
+                <div class="card-img-overlay">
+                  <div class="text-left">
+                  <h3 class="card-title">Портфолио</h3>
+                  <h4 class="card-title">НИИ скорой помощи <p>им. Н.В. Склифосовского</p></h4>
+                  <p class="card-text">Оборудование для пищеблоков</p>
+                  <button type="button" class="btn">Подробнее</button>
+                </div>
+                </div>
+               </div>
             </div>
-            <div class="carousel-item">
-              <a href=""> <img class=" " src="img/slider.jpg"></a>
-            </div>
+            <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
     
@@ -463,17 +508,54 @@
         
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                   <a href=""> <img class=" " src="img/slider_2.jpg"></a>
+                  
+                  <div class="card">
+                    <img src="img/slider_2.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                      <div class="text-left">
+                      <h3 class="card-title">Сервис</h3>
+                      <p class="card-title">Гарантийный ремонт, монтажи и.т.д.</p>
+                      <a class="card-text">Подробнее ></a>
+                    </div>
+                    </div>
+                   </div>
                     
                 </div>
                 <div class="carousel-item">
-                  <a href=""> <img class=" " src="img/slider_2.jpg"></a>
+                  <div class="card">
+                    <img src="img/slider_2.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                      <div class="text-left">
+                        <h3 class="card-title">Сервис</h3>
+                        <p class="card-title">Гарантийный ремонт, монтажи и.т.д.</p>
+                        <a class="card-text">Подробнее ></a>
+                    </div>
+                    </div>
+                   </div>
                 </div>
                 <div class="carousel-item">
-                  <a href=""> <img class=" " src="img/slider_2.jpg"></a>
+                  <div class="card">
+                    <img src="img/slider_2.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                      <div class="text-left">
+                        <h3 class="card-title">Сервис</h3>
+                        <p class="card-title">Гарантийный ремонт, монтажи и.т.д.</p>
+                        <a class="card-text">Подробнее ></a>
+                    </div>
+                    </div>
+                   </div>
                 </div>
                 <div class="carousel-item">
-                  <a href=""> <img class=" " src="img/slider_2.jpg"></a>
+                  <div class="card">
+                    <img src="img/slider_2.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                      <div class="text-left">
+                        <h3 class="card-title">Сервис</h3>
+                        <p class="card-title">Гарантийный ремонт, монтажи и.т.д.</p>
+                        <a class="card-text">Подробнее ></a>
+                    </div>
+                    </div>
+                   </div>
                 </div>
             </div>
         </div>
@@ -593,7 +675,7 @@
 <div class="row pt-5">
         <div class="col-md-7 pr-2">
           <a href=""><div class="card">
-            <img  src="img/image_1.jpg" alt="Card image">
+            <img class="img__1"  src="img/image_1.jpg" alt="Card image">
             <div class="card-img-overlay">
               <div class="text-left">
               <h3 class="card-title">Unox</h3>
@@ -610,24 +692,26 @@
            
              
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-md-6_center">
                   <a href=""> <div class="card">
                     <div class="card-body">
                       <img  class="img__2"  src="img/image_2.png" alt="Card image">
+                     
                       <h3 class="card-title">Hallde</h3>
                       <h4 class="card-title">Овощерезки</h4>
-                      <p class="card-text">Мощный двигатель переводит высокий крутящий момент на режущий инструмент</p>
+                      <p class="card-text ">Мощный двигатель переводит высокий крутящий момент на режущий инструмент</p>
+                   
                     </div>
                   </div></a>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-6 col-md-6_left">
                   <a href=""><div class="card">
                     <div class="card-body">
                       <img class="img__3" src="img/image_3.png" alt="Card image">
                       <h3 class="card-title pb-1">Simeco</h3>
                       <h4 class="card-title">Нержавеющее</h4>
-                      <p class="card-text">Конструктивные особенности изделий отличаются высокой прочностью
+                      <p class="card-text ">Конструктивные особенности изделий отличаются высокой прочностью
                       </p>
                     </div>
                   </div></a>
@@ -635,14 +719,16 @@
               </div>
       </div>
 </div>
-        <div class="row pt-2 second__section">
+        <div class="row pt-2 second__section flex-column-reverse flex-md-row">
                 <div class="col-md-5 pr-2">
                   <a href=""><div class="card">
-                    <div class="card-body pb-0">
+                    <div class="card-body white__section pb-0">
+                      <div class="text2">
                       <h3 class="card-title pt-5 pb-1">Rational</h3>
                       <h4 class="card-title">Пароконвектоматы</h4>
                       <p class="card-text">Педантичность и преданность своему <p>делу делает продукцию Rational</p> <p>идеальной для тех, кто ищет </p><p>надежность и долговечность.</p></p>
-                      <img class="img-fluid mt-5"  src="img/image_4.png" alt="Card image">
+                    </div>
+                      <img class="img__4 mt-5"  src="img/image_4.png" alt="Card image">
                     </div>
                   </div></a>
                 </div>
@@ -653,7 +739,7 @@
                       <li class="list-group-item p-0">
                           
                         <a href=""><div class="card">
-                          <img  src="img/image_5.jpg" alt="Card image">
+                          <img class="img__5"  src="img/image_5.jpg" alt="Card image">
                           <div class="card-img-overlay">
                             <div class="text-left">
                             <h3 class="card-title">Abat</h3>
@@ -692,8 +778,8 @@
   <!--  COMPLEX DECISIONS -->
 
  <div class="container-fluid container-fluid_content">
-  <div class="container container_fixed_2  container_fixed_complex ">
-    <div class="row">
+  <div class="container   container_fixed_complex">
+    <div class="row flex-column-reverse flex-md-row">
       <div class="col-md-7">
     <h1>Комплексные решения оснащения <span class="tx"> столовых 
       и кафе</span></h1>
@@ -720,6 +806,26 @@
      </div>
     </div>
     </div>
+   
+    <div class="collapse" id="collapseExample">
+      
+       <h1>Этапы оснащения кафе</h1>
+       <p>Независимо от типа объекта, будь то детское кафе или китайский ресторан, последовательность задач при заказе услуги «под ключ» выглядит одинаково.
+
+        На первом этапе выбирается подходящее помещение и проводится анализ спроса на подобное заведение. Оценка необходима, если концепция меняется кардинально, либо заведение создаётся «с нуля».
+        
+        Затем составляется техническое задание, которое учитывает вместимость помещения, формируется общая модель работы и технологический процесс, определяется необходимое технологическое оборудование для ресторана.
+        
+        Согласно ТЗ, разрабатывается план расположения ресторанного оборудования и его 3D-модель. Этап позволяет выявить неочевидные ошибки, которые в дальнейшем могут привести к нарушению технологии или существенному снижению производительности. После тщательного анализа производятся работы по монтажу и пуско-наладке.
+        
+        Сложностью в деле создания самостоятельного и эффективного предприятия питания является не столько проблема купить кухонное оборудование для столовой, сколько получить документы проверяющих инстанций. Помимо продажи и проектирования, мы может оказать содействие в получении необходимых разрешений. </p>
+      
+    </div>
+    
+      <button class="btn  btn-dark" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        +
+      </button>
+   
   </div>
   </div>
 
@@ -766,6 +872,11 @@
           
         </div>
         </div>
+       </div>
+
+
+       <div class="collapsing" id="collapseExample2">
+       <div class="row">
         
         <div class="col-md-4 d-flex justify-content-around pb-5">
           <div>
@@ -839,24 +950,34 @@
             
           </div>
         </div>
+       </div>
      </div>
+     <button class="  btn-dark" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+      +
+    </button>
+    <p>Показать еще</p>
+</div>
 
 </div>
    </div>
 </div>
+
 
  <!--  FOOTER -->
  <div class="container-fluid container-fluid_footer">
   <div class="container container_fixed_2 ">
   <div class="row pt-5 pb-5">
     <div class="col-md-3">
-      <nav class="navbar pl-5"> 
-        
-        <ul  class="navbar-nav">
-          <li>
-            <p class="nav-link nav-link_nav active " href="#">Информация</p>
-          </li>
+      <nav class="navbar navbar-expand-lg  pl-5"> 
       
+          <p class="active  navbar-toggler_custom" data-toggle="collapse" data-target="#navbarNav2">Информация</p>
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="">+</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav2">
+        <ul  class="navbar-nav ">
+        
           <li>
             <a class="nav-link nav-link_nav " href="#">Компания</a>
           </li>
@@ -889,15 +1010,19 @@
           </li>
          
         </ul>
+        </div>
       </nav>
     </div>
     <div class="col-md-3">
-      <nav class="navbar navbar__center  pl-5"> 
-        
+      <nav class="navbar navbar-expand-lg  navbar__center  pl-5"> 
+        <p class="active  navbar-toggler_custom" data-toggle="collapse" data-target="#navbarNav2">Оборудование</p>
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav3" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="">+</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav3">
         <ul  class="navbar-nav">
-          <li>
-            <p class="nav-link nav-link_nav active " href="#">Оборудование</p>
-          </li>
+         
       
           <li>
             <a class="nav-link nav-link_nav " href="#">Тепловое</a>
@@ -934,15 +1059,19 @@
           </li>
          
         </ul>
+        </div>
       </nav>
     </div>
     <div class="col-md-3">
-      <nav class="navbar navbar__left pr-5"> 
-        
+      <nav class="navbar navbar__left navbar-expand-lg pr-5"> 
+        <p class="active  navbar-toggler_custom" data-toggle="collapse" data-target="#navbarNav2">Предложение</p>
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="plus">+</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav4">
         <ul  class="navbar-nav">
-          <li>
-            <p class="nav-link nav-link_nav active " href="#">Предложение</p>
-          </li>
+          
       
           <li>
             <a class="nav-link nav-link_nav " href="#">Кафе, барам, ресторанам</a>
@@ -970,15 +1099,19 @@
           </li>
          
         </ul>
+        </div>
       </nav>
     </div>
     <div class="col-md-3">
-      <nav class="navbar navbar__left "> 
-        
+      <nav class="navbar navbar-expand-lg navbar__left "> 
+        <p class="active  navbar-toggler_custom" data-toggle="collapse" data-target="#navbarNav2">Контакты</p>
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav5" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="">+</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav5">
         <ul  class="navbar-nav">
-          <li>
-            <p class="nav-link nav-link_nav active " href="#">Контакты</p>
-          </li>
+          
       
           <li>
             <a class="nav-link nav-link_nav " href="tel:84951503171" >8-495-150-31-71</a>
@@ -1011,6 +1144,7 @@
           
          
         </ul>
+        </div>
       </nav>
     </div>
   </div>
